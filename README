@@ -1,0 +1,17 @@
+﻿Fatou_Explorer is an educational GUI package which demonstrates the deterministic and chaotic behavior of fractals, in particular, the ones produced though iterations of complex-valued functions.  
+
+------------------------------
+
+The repeated application or iteration of a rational function R(z), of the complex variable z, disconnects the extended complex plane into deterministic Fatou set and indeterministic Julia sets. The boundaries of the components of the Fatou set constitutes the Julia set components. The attracting points of a function lie in the Fatou components, F_z, where z is an attracting point, and the repelling points are contained in the Julia set. A components is called forward invariant, if R maps it onto itself. A point z is a critical point of R, if R fails to be one-to-one in any neighborhood of z, being a root of the derivate of R.
+
+According to Sullivan's Theorem, a forward invariant component of the Fatou set of rational function R(z) of degree at least two is:
+a) attracting component (Koenigs domain), if it contains an attracting fixed point of R;
+b) super-attracting component (Bottcher domain), if it contains a super-attracting point;
+c) parabolic component (Leau domain), if there is a rationally indifferent fixed point p of R on the component boundary, and if R^k (z) goes to p in it;
+d) Siegel disc, if the mapping of component onto itself is analytically conjugate to the Euclidean rotation of the unit disc onto itself;
+d) Herman ring, if the mapping of component onto itself is analytically conjugate to the Euclidean rotation of some annulus onto itself;
+
+Fatou_Explorer allows the user to examine each of the Fatou domains stated in Sullivan's Theorem by providing trajectory traces of requested points through the iterations.
+
+Tested in MATLAB R2006b.
+
